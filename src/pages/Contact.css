@@ -1,0 +1,149 @@
+.contact_container {
+    grid-template-columns: 4fr 8fr;
+}
+
+.contact_title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--weight-600);
+    margin-bottom: 1rem;
+}
+
+.contact_description {
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+}
+
+.contact_description,
+.contact_info .info_item {
+    margin-bottom: 20px;
+}
+
+.contact_info .info_item {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.contact_info .info_icon {
+    color: var(--first-color);
+    font-size: var(--h2-font-size);
+}
+
+.info_icon {
+    margin-top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.info_icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.3);
+}
+
+.contact_info .info_title {
+    font-size: var(--small-font-size);
+}
+
+.contact_info .info_desc {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-500);
+}
+
+.contact_socials {
+    display: flex;
+    column-gap: 16px;
+}
+
+.contact_social-link {
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    transition: all 0.3s ease;
+}
+
+.contact_social-link:hover {
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.form_input-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.form_input-div {
+    margin-bottom: 30px;
+}
+
+.form_control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+.form_control:focus {
+    border-color: var(--first-color);
+}
+
+.textarea {
+    resize: none;
+    height: 190px;
+}
+
+.contact_button-icon {
+    font-size: var(--h3-font-size);
+    line-height: 64px;
+}
+
+.button {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button.disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
+
+.info_desc a {
+    color: var(--text-color);
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.email_message {
+    opacity: 0;
+    visibility: hidden;
+    color: var(--text-white);
+    margin: 20px 15px 0;
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out
+}
+
+.email_message.success {
+    background-color: hsl(123, 86%, 31%);
+}
+
+.email_message.error-empty,
+.email_message.error {
+    background-color: hsl(2, 84%, 37%);
+}
+
+.email_message.show {
+    opacity: 1;
+    visibility: visible;
+}
