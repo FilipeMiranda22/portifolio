@@ -18,11 +18,11 @@ import { FiFileText, FiExternalLink } from 'react-icons/fi';
 import { BiLogoJavascript, BiLogoMongodb } from 'react-icons/bi'
 
 import Work1 from './assets/MoviesLib.png';
-import Work2 from './assets/Projeto Costs.png';
+import Work2 from './assets/ProjetoCosts.png';
 import Work3 from './assets/AppsDiversos.png';
-import Work4 from './assets/Em Breve.png';
-import Work5 from './assets/Em Breve.png';
-import Work6 from './assets/Em Breve.png';
+import Work4 from './assets/EmBreve.png';
+import Work5 from './assets/EmBreve.png';
+import Work6 from './assets/EmBreve.png';
 
 import C1 from './assets/C1.jpg';
 import C2 from './assets/C2.jpg';
