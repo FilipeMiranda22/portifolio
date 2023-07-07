@@ -305,3 +305,9 @@
         height: 260px;
     }
 }
+
+@media screen and (max-height: 900px) {
+    .section.container {
+        padding-block: 250px;
+    }
+}
