@@ -95,7 +95,7 @@
   }
 
   .section {
-    padding-block: 50px;
+    padding-block: 30px;
   }
 
   .section_title {
@@ -287,7 +287,7 @@
   }
 
   .modal_img {
-    height: 280px;
+    height: 230px;
   }
 }
 
@@ -301,12 +301,12 @@
   }
 
   .modal_img {
-    height: 260px;
+    height: 210px;
   }
 }
 
 @media screen and (max-height: 900px) and (max-width: 720px) {
   .section.container {
-    padding-top: 250px;
+    padding-top: 150px;
   }
 }

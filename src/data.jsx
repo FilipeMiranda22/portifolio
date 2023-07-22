@@ -21,7 +21,7 @@ import Work1 from "./assets/MoviesLib.png";
 import Work2 from "./assets/ProjetoCosts.png";
 import Work3 from "./assets/AppsDiversos.png";
 import Work4 from "./assets/SecretWord.png";
-import Work5 from "./assets/EmBreve.png";
+import Work5 from "./assets/MiniBlog.png";
 import Work6 from "./assets/EmBreve.png";
 
 import C1 from "./assets/C1.jpg";
@@ -301,7 +301,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: "Descrição: ",
-        desc: "Projeto que utilizou a Api do TMDB para criar uma biblioteca de filmes",
+        desc: "Este é um projeto que faz uso da API do TMDB para criar uma biblioteca de filmes. Eles são classificados de acordo com suas avaliações e além disso, é possível ver detalhes como sinopse, receita, orçamento e duração.",
       },
       {
         icon: <FaGithub />,
@@ -408,27 +408,27 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Em breve...",
+    title: "Mini Blog",
     details: [
       {
         icon: <FiFileText />,
         title: "Descrição: ",
-        desc: "Em breve...",
+        desc: "Explore um Mini Blog dinâmico feito com Firebase e React, onde é possível realizar cadastro, login e publicações com imagens! Um CRUD também foi feito para manipular suas postagens na Dashboard.",
       },
       {
         icon: <FaGithub />,
         title: "GitHub: ",
-        desc: "Em breve...",
+        desc: "github.com/FilipeMiranda22/mini_blog",
       },
       {
         icon: <FaCode />,
         title: "Linguagem/Tecnologias: ",
-        desc: "Em breve...",
+        desc: "FireBase, ReactJs, JavaScript, CSS, ContextAPI, Autenticação",
       },
       {
         icon: <FiExternalLink />,
         title: "Acesse: ",
-        desc: "Em breve...",
+        desc: "mini-blog-reactjs.vercel.app",
       },
     ],
   },
