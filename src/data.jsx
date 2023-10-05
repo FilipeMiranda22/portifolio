@@ -22,7 +22,7 @@ import Work2 from "./assets/ProjetoCosts.png";
 import Work3 from "./assets/AppsDiversos.png";
 import Work4 from "./assets/SecretWord.png";
 import Work5 from "./assets/MiniBlog.png";
-import Work6 from "./assets/EmBreve.png";
+import Work6 from "./assets/ReactGram.png";
 
 import C1 from "./assets/C1.jpg";
 import C2 from "./assets/C2.jpg";
@@ -436,27 +436,27 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: "Em breve...",
+    title: "ReactGram",
     details: [
       {
         icon: <FiFileText />,
         title: "Descrição: ",
-        desc: "Em breve...",
+        desc: "Este projeto replica as principais características do Instagram, incluindo cadastro, login, postagens de imagens, comentários e curtidas em fotos, além de funcionalidades essenciais.",
       },
       {
         icon: <FaGithub />,
         title: "GitHub: ",
-        desc: "Em breve...",
+        desc: "github.com/FilipeMiranda22/ReactGram",
       },
       {
         icon: <FaCode />,
         title: "Linguagem/Tecnologias: ",
-        desc: "Em breve...",
+        desc: "Back-end: NodeJs, Multer, Express, JWTSecret... || Front-end: React, Autenticação, ContextAPI, Redux...",
       },
       {
         icon: <FiExternalLink />,
         title: "Acesse: ",
-        desc: "Em breve...",
+        desc: "reactgram-app.vercel.app",
       },
     ],
   },
