@@ -33,7 +33,7 @@ const CertifiedItem = () => {
 
   const moveDot = (index) => {
     setSlideIndex(index);
-  }
+  };
 
   return (
     <div
@@ -41,17 +41,15 @@ const CertifiedItem = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      {certifieds.map(({ id, title, img }) => {
-        return (
-          <div
-            key={id}
-            className={slideIndex === id ? "slide active_animation" : "slide"}
-          >
-            <h3>{title}</h3>
-            <img src={img} alt={title} />
-          </div>
-        );
-      })}
+      {certifieds.map(({ id, title, img }) => (
+        <div
+          key={id}
+          className={slideIndex === id ? "slide active_animation" : "slide"}
+        >
+          <h3>{title}</h3>
+          <img src={img} alt={title} />
+        </div>
+      ))}
       <button onClick={nextSlide} className="btn_slide next">
         <BiRightArrowAlt />
       </button>
@@ -60,13 +58,12 @@ const CertifiedItem = () => {
       </button>
 
       <div className="container_dots">
-        {Array.from({length: certifieds.length}).map((item, index) => (
-            <div 
-              key={index} 
-              className={`dot ${slideIndex === index + 1 && "active_dot"}`}
-              onClick={() => moveDot(index + 1)}
-            >
-              </div>
+        {Array.from({ length: certifieds.length }).map((item, index) => (
+          <div
+            key={index}
+            className={`dot ${slideIndex === index + 1 && "active_dot"}`}
+            onClick={() => moveDot(index + 1)}
+          ></div>
         ))}
       </div>
     </div>

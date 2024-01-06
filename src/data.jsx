@@ -34,6 +34,7 @@ import C7 from "./assets/C7.jpg";
 import C8 from "./assets/C8.jpg";
 import C9 from "./assets/C9.jpg";
 import C10 from "./assets/C10.jpg";
+import C11 from "./assets/C11.jpg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -175,60 +176,65 @@ export const resume = [
 export const certifieds = [
   {
     id: 1,
+    title: "React do Zero a Maestria",
+    img: C11,
+  },
+  {
+    id: 2,
     title: "Scrum Fundamentals",
     img: C1,
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Microsoft Excel 2016 - Básico",
     img: C2,
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Postura e Imagem Profissional (PIP)",
     img: C5,
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Microsoft World 2016 - Básico",
     img: C6,
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Omnistack",
     img: C3,
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Accenture Academy - Tech's Cool: Oracle BRM",
     img: C4,
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Fundamentos: dados, dados, em todos os lugares",
     img: C7,
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Fazer perguntas para tomar decisões com base em dados",
     img: C8,
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Preparar os Dados para Exploração",
     img: C9,
   },
 
   {
-    id: 10,
+    id: 11,
     title: "Processar os dados para limpá-los",
     img: C10,
   },
