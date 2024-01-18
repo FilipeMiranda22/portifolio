@@ -1,4 +1,4 @@
-import Profile from "../assets/my_photo.jpg";
+import Profile from "../assets/my_photo.jpg.jpeg";
 import { Scrollchor, swing } from "react-scrollchor";
 import { FaArrowRight } from "react-icons/fa";
 import "./Home.css";
