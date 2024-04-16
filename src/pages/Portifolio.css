@@ -1,5 +1,27 @@
+#portfolio {
+  padding-inline: 1rem;
+}
+
 .portfolio_container {
   grid-template-columns: repeat(3, 1fr);
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide-left {
+  transform: translateX(-150%);
+}
+
+.slide-right {
+  transform: translateX(150%);
+}
+
+.container_slider_portfolio {
+  width: 90%;
+  max-width: 1400px;
+  padding-inline: 4rem;
+  margin: 20px auto 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio_item {
@@ -10,9 +32,11 @@
 }
 
 .portfolio_img {
-  height: 250px;
+  height: 100%;
+  min-height: 200px;
   width: 100%;
   object-fit: cover;
+  object-position: center;
   vertical-align: middle;
 }
 

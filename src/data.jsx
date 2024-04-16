@@ -93,7 +93,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Idade: ",
-    description: "22 anos",
+    description: "23 anos",
   },
 
   {
@@ -124,27 +124,35 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "4+",
+    no: "5+",
     title:
       "Anos cursando <br /> Engenharia de Computação no IFPB - Campina Grande",
   },
 
   {
     id: 2,
-    no: "6+",
+    no: "10+",
     title:
       "Projetos Completos e alguns outros já em andamento. <br />Alguns estão disponíveis para demonstração na próxima sessão.",
   },
 
   {
     id: 3,
-    no: "10+",
+    no: "11+",
     title:
       "Tenho uma diversidade de certificados abrangendo diferentes áreas, incluindo postura profissional, análise de dados e desenvolvimento web.",
   },
 ];
 
 export const resume = [
+  {
+    id: 1,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "2024 - Trabalho atual",
+    title: "Desenvolvedor de Software Júnior <span> Brainy Digital </span>",
+    desc: "Trabalho como Desenvolvedor de Software Júnior, especializado em Front-End, com foco na utilização do React.",
+  },
   {
     id: 2,
     category: "experience",
@@ -466,6 +474,90 @@ export const portfolio = [
       },
     ],
   },
+
+  // {
+  //   id: 7,
+  //   img: Work1,
+  //   title: "MoviesLib",
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: "Descrição: ",
+  //       desc: "Este é um projeto que faz uso da API do TMDB para criar uma biblioteca de filmes. Eles são classificados de acordo com suas avaliações e além disso, é possível ver detalhes como sinopse, receita, orçamento e duração.",
+  //     },
+  //     {
+  //       icon: <FaGithub />,
+  //       title: "GitHub: ",
+  //       desc: "github.com/FilipeMiranda22/MoviesLib",
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: "Linguagem/Tecnologias : ",
+  //       desc: "ReactJs, JavaScript, Css, Api (TMDB)",
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: "Acesse: ",
+  //       desc: "movies-lib-alpha.vercel.app",
+  //     },
+  //   ],
+  // },
+
+  // {
+  //   id: 8,
+  //   img: Work1,
+  //   title: "MoviesLib",
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: "Descrição: ",
+  //       desc: "Este é um projeto que faz uso da API do TMDB para criar uma biblioteca de filmes. Eles são classificados de acordo com suas avaliações e além disso, é possível ver detalhes como sinopse, receita, orçamento e duração.",
+  //     },
+  //     {
+  //       icon: <FaGithub />,
+  //       title: "GitHub: ",
+  //       desc: "github.com/FilipeMiranda22/MoviesLib",
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: "Linguagem/Tecnologias : ",
+  //       desc: "ReactJs, JavaScript, Css, Api (TMDB)",
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: "Acesse: ",
+  //       desc: "movies-lib-alpha.vercel.app",
+  //     },
+  //   ],
+  // },
+
+  // {
+  //   id: 9,
+  //   img: Work1,
+  //   title: "MoviesLib",
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: "Descrição: ",
+  //       desc: "Este é um projeto que faz uso da API do TMDB para criar uma biblioteca de filmes. Eles são classificados de acordo com suas avaliações e além disso, é possível ver detalhes como sinopse, receita, orçamento e duração.",
+  //     },
+  //     {
+  //       icon: <FaGithub />,
+  //       title: "GitHub: ",
+  //       desc: "github.com/FilipeMiranda22/MoviesLib",
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: "Linguagem/Tecnologias : ",
+  //       desc: "ReactJs, JavaScript, Css, Api (TMDB)",
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: "Acesse: ",
+  //       desc: "movies-lib-alpha.vercel.app",
+  //     },
+  //   ],
+  // },
 ];
 
 export const themes = [
